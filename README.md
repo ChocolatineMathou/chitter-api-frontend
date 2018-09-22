@@ -5,11 +5,7 @@ This time, we are provided with a backend API and our mission is to build a sing
 
 ## Technology
 
-At the moment, I would like to add an extra challenge to this project and use React. I may (or may note) re-evaluate this idea by the end of the day.
-
-## Install and run the app
-
-:construction: Under construction :construction:
+At the moment, I would like to add an extra challenge to this project and use React — you can call me crazy. I may (or may note) re-evaluate this idea by the end of the day. :dizzy_face:
 
 ## User stories
 
@@ -35,34 +31,32 @@ So that I can avoid others posting messages on Chitter as me
 I want to log out of Chitter
 ```
 
+## Install, run and test the app
+
+Before running the app, make sure [Node](https://nodejs.org/en/) is installed.  
+
+To download and run the app:  
+
+``` 
+$ git clone git@github.com:ChocolatineMathou/chitter-api-frontend.git  
+$ cd chitter-api-frontend  
+$ npm install
+$ npm start
+```
+`npm install` will get you all dependencies needed to run this project.  
+`npm start` may redirect you automatically to your favourite browser. If not, open it and type `http://localhost:3000`.  
+`npm test` will launch the tests.
+
 ## Resources
 
-:construction: Under construction :construction:
+[React Documentation](https://reactjs.org/docs/getting-started.html)  
+[How to fetch data in React](https://www.robinwieruch.de/react-fetching-data/#react-how-fetch-data) by Robin Wieruch  
+[Session storage and local storage in React](https://www.robinwieruch.de/local-storage-react/) by Robin Wieruch
 
 ## Feedbacks
 
 :construction: Under construction :construction:
 
-## Available Scripts
+## Acknowledgement
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your favourite browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.  
-Your app is ready to be deployed!
+:construction: Under construction :construction:
