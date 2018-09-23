@@ -5,7 +5,8 @@ This time, we are provided with a backend API and our mission is to build a sing
 
 ## Technology
 
-At the moment, I would like to add an extra challenge to this project and use React — you can call me crazy. I may (or may note) re-evaluate this idea by the end of the day. :dizzy_face:
+At the moment, I would like to add an extra challenge to this project and use React — you can call me crazy. :dizzy_face:  
+Add something about tests and the API.
 
 ## User stories
 
@@ -51,12 +52,13 @@ $ npm start
 
 [React Documentation](https://reactjs.org/docs/getting-started.html)  
 [How to fetch data in React](https://www.robinwieruch.de/react-fetching-data/#react-how-fetch-data) by Robin Wieruch  
-[Session storage and local storage in React](https://www.robinwieruch.de/local-storage-react/) by Robin Wieruch
+[Session storage and local storage in React](https://www.robinwieruch.de/local-storage-react/) by Robin Wieruch  
+[Introduction to React](https://www.youtube.com/watch?v=_ZTT9kw3PIE) by Le Wagon (video)
 
 ## Feedbacks
 
-:construction: Under construction :construction:
+On Saturday morning, I didn't realise I would spend so much time reading documentation. On one hand, I'm feeling a little bit frustrated because I implemented only two features (displaying the peeps and signup). On the other, I'm really glad that I actually did something with React.
 
 ## Acknowledgement
 
-:construction: Under construction :construction:
+Thank you [Angela](https://github.com/Whatapalaver) and [Danielle](https://github.com/dani-boo) for encouraging me when I asked you advices about using React for this project.
