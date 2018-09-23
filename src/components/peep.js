@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/peep.css'
 
 class Peep extends React.Component {
   render() {
@@ -15,9 +16,9 @@ class Peep extends React.Component {
 
     return (
       <div className="peep">
-        <div className="peep-user"><p>{user}</p></div>
-        <div className="body"><p>{body}</p></div>
-        <div className="date"><p>{formattedDate}</p></div>
+        <div className="peep-user"><p>{user} @{user}</p></div>
+        <div className="peep-body"><p>{body}</p></div>
+        <div className="peep-date"><p>{formattedDate}</p></div>
       </div>
     )
   }

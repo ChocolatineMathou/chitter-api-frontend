@@ -1,0 +1,19 @@
+.peep {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  text-align: left;
+  background-color: #E6E6E7;
+  width: 500px;
+  border: 3px solid #CFC4B2;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+}
+
+.peep-user {
+  font-weight: bold;
+}
+
+.peep-date {
+  text-align: right;
+}

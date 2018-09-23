@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Peep from './peep';
+import '../css/app.css'
 
 class App extends Component {
   constructor(props) {
@@ -17,11 +18,10 @@ class App extends Component {
   }
   render() {
     const { peeps } = this.state;
-    console.log(peeps);
     return (
       <div className="app">
           {peeps.map(function(peep) {
-            return <Peep peep={peep} />
+            return <li key={peep.id}><Peep peep={peep} /></li>
           })}
       </div>
     )
