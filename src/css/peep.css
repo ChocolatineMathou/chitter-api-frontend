@@ -1,6 +1,7 @@
 .peep {
+  margin: auto;
   margin-bottom: 20px;
-  margin-left: 10px;
+  margin-top: 10px;
   text-align: left;
   background-color: #E6E6E7;
   width: 500px;

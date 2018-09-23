@@ -1,31 +1,24 @@
 import React, { Component } from 'react';
-import Peep from './peep';
+import Peeps from './peeps';
+import Signup from './signup'
 import '../css/app.css'
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      peeps: [],
-    }
+    this.state = {};
   }
 
-  componentDidMount() {
-
-    fetch('https://chitter-backend-api.herokuapp.com/peeps')
-    .then(response => response.json())
-    .then(data => this.setState({ peeps: data }));
-  }
   render() {
-    const { peeps } = this.state;
     return (
-      <div className="app">
-          {peeps.map(function(peep) {
-            return <li key={peep.id}><Peep peep={peep} /></li>
-          })}
+      <div className="wrapper">
+        <Signup />
+        <Peeps />
       </div>
     )
+
   }
+
 }
 
 export default App;
